@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * Created By : Rohan Hapani
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="FAQ_Manage::view" title="FAQ_Manage" module="FAQ_Manage" sortOrder="10" resource="FAQ_Manage::view"/>
+        <add id="FAQ_Manage::grid" title="Manage Question Records" module="FAQ_Manage" sortOrder="9" parent="FAQ_Manage::view" action="blog/grid/index" resource="FAQ_Manage::view"/>
+    </menu>
+</config>
